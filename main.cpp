@@ -16,7 +16,7 @@ int main(int argc, char** argv)
         arg = std::string(argv[i]);
         num = atoi(arg.c_str());
         foo = new Foo(num);
-        std::cout << i << ": \"" << arg << "\" -> " num << " = ";
+        std::cout << i << ": \"" << arg << "\" -> " << num << " = ";
         std::cout << *foo;
         std::cout << std::endl;
         delete foo;
